@@ -1,0 +1,38 @@
+{
+  "name": "principia-next-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prepare": "ts-patch install",
+    "postinstall": "ts-patch install",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@principia/base": "^0.25.2",
+    "next": "11.1.2",
+    "react": "^18.0.0-alpha-5fa4d79b0-20211008",
+    "react-dom": "^18.0.0-alpha-5fa4d79b0-20211008",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "@0x706b/eslint-plugin-align-assignments": "^0.0.3",
+    "@types/react": "17.0.27",
+    "@types/styled-components": "^5.1.15",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "babel-plugin-styled-components": "^1.13.2",
+    "eslint": "7",
+    "eslint-config-next": "11.1.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.4.1",
+    "prettier-eslint": "^13.0.0",
+    "prettier-eslint-cli": "^5.0.1",
+    "ts-loader": "^9.2.6",
+    "ts-patch": "^1.4.4",
+    "typescript": "4.4.3"
+  }
+}
