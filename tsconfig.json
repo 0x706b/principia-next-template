@@ -19,7 +19,8 @@
     "plugins": [
       {
         "transform": "@principia/compile",
-        "tracing": false
+        "tracing": false,
+        "specifierExtension": false
       }
     ],
     "noEmit": false
